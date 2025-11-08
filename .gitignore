@@ -1,0 +1,48 @@
+# Add data files to .gitignore
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# Add result files to .gitignore
+results/*.csv
+results/*.xlsx
+results/*.png
+results/*.jpg
+results/*.html
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
